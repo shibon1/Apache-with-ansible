@@ -1,0 +1,5 @@
+---
+- hosts: clients
+  become: yes
+  roles:
+    - { role: role1 }

@@ -1,0 +1,3 @@
+With that script you can create multiple
+
+role: everyone with key can access

@@ -1,0 +1,19 @@
+---
+- include: task1.yml
+  when: incluir_task1
+
+- include: task2.yml
+  when: incluir_task2
+
+- include: task3.yml
+  when: incluir_task3
+
+- include: task4.yml
+  when: incluir_task4
+
+- include: task4.yml
+  when: incluir_task4
+
+- include: task5.yml
+  when: incluir_task5
+# tasks file for role1

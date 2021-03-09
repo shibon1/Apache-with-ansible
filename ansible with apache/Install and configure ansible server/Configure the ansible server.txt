@@ -1,0 +1,26 @@
+#Configure ssh for auto without necessat login
+cd .ssh/
+
+nano id_rsa
+
+# Copy your key.pem for id_rsa
+chmod 400 id_rsa
+
+nano id_rsa.pub
+
+#Copy the authorized_keys for id_rsa.pub
+cat auth
+
+chmod 400 id_rsa.pub
+
+#Login in the specifc IP without necessary "yes"
+nano /etc/ssh/ssh_config
+
+Host *.*.*.*
+
+#In final add
+   StrictHostKeyChecking no
+   UserKnownHostsFile=/dev/null
+   
+# Install the Ansible
+apt install ansible

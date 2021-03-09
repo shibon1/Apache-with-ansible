@@ -1,0 +1,3 @@
+---
+  - name: ensure apache is installed and up to date
+    apt: name=apache2 state=latest

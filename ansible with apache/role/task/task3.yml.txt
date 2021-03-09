@@ -1,0 +1,3 @@
+---
+  - name: change ports
+    copy: src=ports.conf dest=/etc/apache2/ports.conf
