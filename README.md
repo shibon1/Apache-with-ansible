@@ -1,4 +1,4 @@
-#In this project you can: 
+In this project you can: 
 1- Install ansible
 2- Configure easy-rsa
 3- Install apach2 automatic
