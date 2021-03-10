@@ -1,0 +1,5 @@
+---
+- name: start script certs
+  become: yes
+  become_method: sudo
+  shell: "bash /home/ubuntu/certs.sh"
