@@ -4,4 +4,6 @@ incluir_task2: true
 incluir_task3: true
 incluir_task4: true
 incluir_task5: true
+incluir_task6: true
+incluir_task7: true
 # defaults file for role
