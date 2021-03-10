@@ -1,9 +1,10 @@
 In this project you can: 
-1- Install ansible
-2- Configure easy-rsa
-3- Install apach2 automatic
-4- Configure ports
-5- Apache with certificates
+1- Create multiple machine with terraform;
+1- Install ansible;
+2- Configure easy-rsa;
+3- Install apach2 automatic;
+4- Configure ports;
+5- Apache with certificates;
 
 
 WARNING: You can only run this script once.
