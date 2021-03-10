@@ -1,4 +1,4 @@
-In that project 
+#In that project you can: 
 1- Install ansible
 2- Configure easy-rsa
 3- Install apach2 automatic
@@ -16,4 +16,4 @@ incluir_task4: true
 incluir_task5: true
 incluir_task6: false
 incluir_task7: true
-# defaults file for role1
+
