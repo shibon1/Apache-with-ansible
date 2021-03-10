@@ -16,4 +16,10 @@
 
 - include: task5.yml
   when: incluir_task5
+  
+- include: task6.yml
+  when: incluir_task6
+
+- include: task7.yml
+  when: incluir_task7
 # tasks file for role1
