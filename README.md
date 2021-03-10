@@ -6,7 +6,7 @@
 5- Apache with certificates
 
 
-WARNING: You can only run this script once ;
+WARNING: You can only run this script once.
 To resolve this problem go to defaults/main.yml and change the "true" for "false" in task6;
 ---
 incluir_task1: true
