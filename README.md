@@ -1,4 +1,4 @@
-#In that project you can: 
+#In this project you can: 
 1- Install ansible
 2- Configure easy-rsa
 3- Install apach2 automatic
@@ -6,8 +6,8 @@
 5- Apache with certificates
 
 
-WARNING: With Script you just can run one time;
-For resolve that problem in defaults/main.yml change the true for false in task6
+WARNING: You can only run this script once ;
+To resolve this problem go to defaults/main.yml and change the "true" for "false" in task6;
 ---
 incluir_task1: true
 incluir_task2: true
