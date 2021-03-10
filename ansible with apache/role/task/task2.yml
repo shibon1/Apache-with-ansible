@@ -1,0 +1,3 @@
+---
+ - name: write the apache config file
+   copy: src=000-default.conf dest=/etc/apache2/sites-available/000-default.conf
